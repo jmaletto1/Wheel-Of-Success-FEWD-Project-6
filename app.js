@@ -1,7 +1,7 @@
 // Element Selectors
 
 const keyboard = document.getElementById("qwerty");
-const phraseDiv = document.getElementById("phrase");
+const phraseDiv = document.querySelector("#phrase ul");
 const overlay = document.getElementById("overlay");
 const headline = document.querySelector(".title");
 const startButton = document.querySelector(".btn__reset");
